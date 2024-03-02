@@ -1,2 +1,9 @@
 ng add @angular/material
 ng add @ngrx/signals@latest
+
+NgRx Signal Store
+Setting up our Store
+
+https://www.youtube.com/watch?v=HqxY0JPlh54
+
+13:31
