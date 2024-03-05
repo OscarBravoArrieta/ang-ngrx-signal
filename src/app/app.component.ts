@@ -2,11 +2,13 @@
  import { CommonModule, JsonPipe } from '@angular/common'
  import { RouterOutlet } from '@angular/router'
  import { TodosStore } from './sore/todo.store'
+ import { TodoListComponent } from './components/todo-list/todo-list.component'
+ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner'
 
  @Component({
      selector: 'app-root',
      standalone: true,
-     imports: [CommonModule, RouterOutlet, JsonPipe],
+     imports: [CommonModule, RouterOutlet, JsonPipe, TodoListComponent, MatProgressSpinnerModule],
      templateUrl: './app.component.html',
      styleUrl: './app.component.scss'
  })
